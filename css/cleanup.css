@@ -1,1 +1,24 @@
 /* write your override styles here */
+#wall .target-1{
+    display: none;
+}
+
+div#wall #tag-4{
+    z-index: 8;
+}
+
+div:nth-child(6){
+    display: inline-block;
+}
+
+#target-5 > :nth-last-child(1){
+    color:red;
+}
+
+div#tag-6 {
+    background-color: blue;
+}
+
+body > div:nth-last-child(){
+    display: none ;
+}
